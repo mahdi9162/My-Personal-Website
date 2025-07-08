@@ -1,22 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My Personal Website </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-       
+
+<body class="open-sans">
+    <header class="header content-bg">
+        <nav>
+            <h3> Ma<span>hd</span>i</h3>
+            <ul>
+                <li><a href=""> Portfolio </a></li>
+                <li><a href=""> Projects </a></li>
+                <li><a href=""> <button class="btn-primary"> Hire Me </button> </a></li>
+            </ul>
+        </nav>
+
+        <div class="banner">
+            <div class="banner-text">
+                <h3>Hi, I am</h3>
+                <h1>Mahdi Hasan</h1>
+                <p>I build modern web experiences with MERN. <br>
+                    <span> Fast. Scalable. Reliable. </span>
+                </p>
+                <button class="btn-primary banner-btn"> Download CV </button>
+                <button class="btn-primary banner-btn"> Contact</button>
+            </div>
+            <img class="banner-img" src="images/mahdi .png" alt="">
+        </div>
     </header>
 
     <main>
+        <section class="about-us">
+            <div class="about-content content-bg">
+                <h3 class="content-head">About Me</h3>
+                <p>I'm a MERN Stack Developer who loves building fast, responsive & reliable web apps.
+                    From clean UI to solid backend — I turn ideas into working products, one line of code at a time.
+                    Always learning, always building — because the next big thing starts with the next bold line of
+                    code.
+                    Let’s build something that doesn’t just work — but wows.</p>
 
+                <div class="about-info">
+                    <!-- .info*4>p.info-tittle+p.info-descrip -->
+
+                    <div class="info">
+                        <p class="info-tittle">Name</p>
+                        <p class="info-descrip">Mahdi Hasan</p>
+                    </div>
+                    <div class="info">
+                        <p class="info-tittle">Email</p>
+                        <p class="info-descrip">hasanmahdi6060@gmail.com</p>
+                    </div>
+                    <div class="info">
+                        <p class="info-tittle">Date Of Birth</p>
+                        <p class="info-descrip">9 February 2005</p>
+                    </div>
+                    <div class="info">
+                        <p class="info-tittle">From</p>
+                        <p class="info-descrip">Narsingdi, Bangladesh</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
 
     <footer>
 
     </footer>
 </body>
+
 </html>
