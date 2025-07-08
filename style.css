@@ -21,12 +21,22 @@
     font-size: 35px;
     font-weight: bold;
     padding-bottom: 30px;
+    text-align: center;
+}
+
+.text-color {
+    color: #757575;
+}
+
+.section-gap {
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 /* Main Style */
 main {
     max-width: 1140px;
-    margin: 130px auto;
+    margin: 0px auto;
 }
 
 /* Nav Style */
@@ -129,16 +139,130 @@ nav h3 span {
 
 .about-content {
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 120px 140px;
     text-align: center;
 }
 
 .about-info {
     display: flex;
     justify-content: space-around;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .info-descrip {
     font-weight: 600;
+    color: #757575;
+}
+
+/* Skill Section */
+.skill-div {
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.content-text {
+    max-width: 909px;
+    margin: 0px auto;
+}
+
+.skill-items {
+    display: flex;
+    margin-top: 50px;
+    text-align: start;
+    font-size: 14px;
+    gap: 24px;
+}
+
+.skill {
+   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+   padding: 30px;
+   border-radius: 5px;
+}
+
+
+.skill img {
+    padding-bottom: 38px;
+}
+
+.skill h4 {
+    padding-bottom: 20px;
+}
+
+/* Resume Section */
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.resume h3 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 100px;
+    color: rgba(71, 71, 71, 1);
+}
+
+.resume h4 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: rgba(71, 71, 71, 1);
+}
+
+.resume-tittle {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: rgba(117, 117, 117, 1);
+}
+
+.resume-descrip {
+    max-width: 80%;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(117, 117, 117, 1);
+
+}
+
+hr {
+    margin: 30px 0px;
+}
+
+.resume-btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* footer section */
+.foot-container {
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+}
+
+.foot-container h2 {
+    padding-bottom: 28px;
+}
+
+.foot-content p {
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.foot-icon a {
+    padding-right: 24px;
+}
+
+.foot-content {
+    width: 50%;
+}
+
+footer input[type="text"], input[type="email"], textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
 }
